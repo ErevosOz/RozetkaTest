@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="org.uncommons:reportng:1.1.4" type="repository">
+    <properties maven-id="org.uncommons:reportng:1.1.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.21/testng-6.8.21.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.27/jcommander-1.27.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/velocity/velocity/1.4/velocity-1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/velocity/velocity-dep/1.4/velocity-dep-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
