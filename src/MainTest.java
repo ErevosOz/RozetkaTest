@@ -1,3 +1,5 @@
+import pageObj.HomePage;
+import pageObj.SearchPage;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -10,12 +12,13 @@ public class MainTest{
     private FirefoxDriver driver;
 
 
+
     @BeforeClass
     public void testSetup() {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("http://rozetka.com.ua");
-         }
+    }
 
     @AfterClass
     public void End(){
