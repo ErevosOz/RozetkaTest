@@ -13,11 +13,6 @@ public class AbstrTest {
         PageFactory.initElements(driver, this);
     }
 
-    public HomePage navigateToHome(){
-        driver.get("http://rozetka.com.ua/");
-        return new HomePage(driver);
-    }
-
     public void waitUntilVisible(WebElement element){
         WebDriverWait wait = new WebDriverWait(driver, 2);
         wait.until(ExpectedConditions.visibilityOf(element));
