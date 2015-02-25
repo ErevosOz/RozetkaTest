@@ -31,7 +31,7 @@ public class MainTest{
     public void buyTest() {
         HomePage home = new HomePage(driver);
         home.login("ostap.oleksyn@gmail.com", "omnius123");
-        SearchPage result = home.search("pinguin explorer 60");
+        SearchPage result = home.search("pinguin trail");
         result.buyFistItem();
         result.checkCart();
 

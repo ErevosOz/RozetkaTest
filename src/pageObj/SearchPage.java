@@ -8,7 +8,7 @@ import org.testng.Assert;
 
 public class SearchPage extends AbstrTest {
 
-    @FindBy(xpath = ".//*[@class='g-i-list available clearfix'][1]//button")
+    @FindBy(xpath = "(.//*[@id='head_banner_container']//button)[1]")
     WebElement buyButton;
 
     @FindBy(xpath = ".//*[@id='cart-popup']/div")
@@ -24,7 +24,6 @@ public class SearchPage extends AbstrTest {
 
     public void buyFistItem() {
         buyButton.click();
-
     }
 
     public void checkCart(){
